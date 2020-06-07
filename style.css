@@ -2,31 +2,31 @@
 -------------------------------------------------- */
 /* Padding below the footer and lighter body text */
 
+html {
+  scroll-behavior: smooth;
+}
+
 body {
     padding-bottom: 3rem;
     color: #5a5a5a;
     font-family: 'Sunshiney';
     font-size: 22px;
-  }
-  
+    background-color: #fff6fb;
+  }  
   
   /* CUSTOMIZE THE JUMBOTRON
   -------------------------------------------------- */
   
   /* Jumbotron base class */
   .jumbotron {
-    background-image: 
-        linear-gradient(
-        rgba(0, 0, 0, 0.5),
-        rgba(0, 0, 0, 0.5)
-        ),    
-        url("/jumbotron_bg.jpg");
+    background: #fff6fb url("/PngItem_462536.png");
     background-size: cover;
-    height: 50vh;
+    background-position: center;
   }
   
   .jumbotron {
       color: #ffffff;
+      text-shadow: 2px 2px #000000;
   }
   
   /* Featurettes
