@@ -23,14 +23,15 @@ body {
   
   /* Jumbotron base class */
   .jumbotron {
-    background: #fffbfe url("/PngItem_462536.png");
-    background-size: cover;
+    background: #fffbfe url("bunny-banner.png");
+    background-size: contain;
+    background-repeat: no-repeat;
     background-position: center;
   }
   
   .jumbotron {
-      color: #ffffff;
-      text-shadow: 2px 2px #000000;
+      /* color: #ffffff; */
+      /* text-shadow: 2px 2px #000000; */
   }
   
   /* Featurettes
