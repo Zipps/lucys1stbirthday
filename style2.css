@@ -29,9 +29,9 @@ body {
     background-position: center;
   }
   
-  .jumbotron {
+  .jumbotron .container {
       /* color: #ffffff; */
-      /* text-shadow: 2px 2px #000000; */
+      text-shadow: 3px 3px #FFFFFF;
   }
   
   /* Featurettes
@@ -39,6 +39,8 @@ body {
   
   .line-break {
     width: 100%;
+    margin-top: 20px;
+    margin-bottom: 20px;
   }
 
   .featurette-divider {
