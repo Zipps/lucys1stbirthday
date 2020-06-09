@@ -37,6 +37,10 @@ body {
   /* Featurettes
   ------------------------- */
   
+  .line-break {
+    width: 100%;
+  }
+
   .featurette-divider {
     margin: 5rem 0; /* Space out the Bootstrap <hr> more */
   }
